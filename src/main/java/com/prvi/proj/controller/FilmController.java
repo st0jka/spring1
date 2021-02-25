@@ -44,6 +44,7 @@ public class FilmController {
         boolean uspesno = filmService.obrisiFilm(idFilm);
         System.out.println("uspesno obrisan:  " + uspesno);
         ModelAndView mav = new ModelAndView("redirect:getFilm");
+        System.out.println("nesto ovo ne radi");
         return mav;
 
     }
